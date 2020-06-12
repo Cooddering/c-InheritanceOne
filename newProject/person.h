@@ -7,7 +7,8 @@ class Person
 {
 public:
     string profession;
-    int age;
+    
+
     int maas;
     Person() : profession("unemployed"), age(16) { }
     void display()
@@ -20,4 +21,11 @@ public:
     }
     void walk() { cout << "I can walk." << endl; }
     void talk() { cout << "I can talk." << endl; }
+    void setAge(int yas);
+    int getAge();
+
+private:
+    int age;
+
+
 };

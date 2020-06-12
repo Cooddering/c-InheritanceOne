@@ -93,7 +93,7 @@
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
-      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
@@ -151,6 +151,7 @@
     <ClCompile Include="person.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Company.h" />
     <ClInclude Include="Footballer.h" />
     <ClInclude Include="Manager.h" />
     <ClInclude Include="MathsTeacher.h" />
