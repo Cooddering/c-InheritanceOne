@@ -11,6 +11,7 @@ using namespace std;
 
 int main()
 {
+     cout << "/**********************************/" << endl;
     MathsTeacher teacher;
     teacher.profession = "Teacher";
     teacher.setAge(34);
@@ -37,17 +38,18 @@ int main()
     manager.schoolManager();
 
 
-    cout << "/**********************************/" << endl;
+
+    cout << "/mass hesaplama*************************/" << endl;
 
     Company company;
     company.addEmployee(manager);
     company.addEmployee(footballer);
     company.addEmployee(teacher);
-   
-    cout << "Gider" << company.totalSalary();
+
+    cout << "Gider.: " << company.totalSalary() << endl;
+
+    cout << "Yas.: " << company.averageAge()<< endl;
 
     return 0;
-
-   
 }
 

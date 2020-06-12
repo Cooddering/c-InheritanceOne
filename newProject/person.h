@@ -7,8 +7,6 @@ class Person
 {
 public:
     string profession;
-    
-
     int maas;
     Person() : profession("unemployed"), age(16) { }
     void display()
